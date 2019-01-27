@@ -1,0 +1,193 @@
+body{
+	margin:0;
+	padding:0;
+	
+	text-align:center;
+
+}
+
+.allcontent{
+    display: flex;
+    flex-direction: row;
+}
+
+
+h1{
+	font-family: 'Mogra', cursive;
+	font-weight:lighter;
+	color:black;
+	text-shadow:0 5px 45px black;
+	margin:30px 0 5px 0;
+	padding:0;
+}
+h6{
+	margin:5px 0 20px 0;
+	padding:0;
+	font-family: 'Mogra', cursive;
+	color:#333333;
+}
+input{
+	height:30px;
+	width:350px;
+	max-width:350px;
+	font-family: 'Mogra', cursive;
+	font-size:20px;	
+	outline:none;
+	-webkit-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+button{
+	font-family:Impact;
+	font-size:20px;
+	background:#66a561;
+	height:50px;
+	padding:0 30px;
+	margin-left:-10px;
+	cursor:pointer;	
+}
+button:hover{
+    background:#28994e;
+}
+.resultBar{
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	background:rgb(77, 69, 68);
+	font-family: sans-serif;
+	opacity:0;	
+}
+/* Content */
+.contentBox{
+	margin:0;
+	padding:0;
+}
+.tile{
+	position:relative;
+	text-align:left;
+	font-family: 'Courgette', cursive;
+	background:#efefef;
+	margin-left:10%;
+	margin-right:10%;
+	height:230px;
+	width:600px;
+	overflow:hidden;
+	margin:0 auto;
+	margin-top:20px;
+}
+.flag{
+	position:absolute;
+	padding:10px;
+	left:2%;
+	top:5%;
+}
+.flag img{
+	width:60px;
+}
+.name{
+	position:Absolute;
+	left:18%;
+	top:10%;
+	font-size:1.3em;
+}
+.name:after{
+	content:"";
+	position:absolute;
+	height:3px;
+	width:300px;
+	background:maroon;
+	top:120%;
+	left:0;
+}
+.other{
+	position:Absolute;
+	left:18%;
+	top:30%;
+	font-size:0.8em;
+}
+.info{
+	display:flex;
+	height:50px;
+	font-family:  cursive;
+	font-size:1.3em;
+	margin-top:120px;
+}
+.info .flexItem{
+	position:Relative;
+	text-align:center;
+	padding:25px;
+	background:white;
+	border: 1px solid black;
+}
+.pop:before, .area:before, .curr:before{
+	font-family:FontAwesome;
+	position:absolute;
+	font-size:40px;
+	top:75%;
+	left:40%;
+}
+.ticker{
+	background:rgb(139, 138, 138);
+	margin-top:10px;
+	position:absolute;
+    width:100%;
+  
+}
+.ticker .domain{
+	float:left;
+	margin:0 20px;
+}
+.ticker .callId{
+	float:right;
+	margin:0 20px;
+}
+.footer {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: Verdana;
+}
+.footer a {
+
+	letter-spacing:0;
+	position: relative;
+}
+.footer a:after {
+	content: "";
+	position: absolute;
+	background: black;
+	width: 20%;
+	height: 3px;
+	top: 100%;
+	left: 35%;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+}
+.footer a:hover {
+	letter-spacing: 2px;
+}
+.footer a:hover:after {
+	background: black;
+	width: 100%;
+	height: 3px;
+	top: 100%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 1;
+}
+a{
+	text-decoration:none;
+	color:inherit;
+}
+
+#show{
+    
+    background-color: #efefef;
+    margin-left:10%;
+	margin-right:10%;
+	height:230px;
+    width:600px;
+   
+	overflow:hidden;
+	margin:0 auto;
+	margin-top:20px;
+}
